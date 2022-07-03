@@ -2,9 +2,10 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.orange{
+.orange, h3{
     color: orange;
 }
+
 h1{
     font-size: 50px;
 }
@@ -44,4 +45,31 @@ section{
 
 .flexible{
     display:flex;
+}
+
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+}
+
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.border-left{
+    border-left: 7px solid orange;
+}
+.border-right{
+    border-left: 7px solid blue;
+}
+
+footer{
+    text-align: center;
+    color: gray;
+    font-size: 10px;
 }
